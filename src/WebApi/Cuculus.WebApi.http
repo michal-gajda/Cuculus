@@ -1,0 +1,6 @@
+@WebApi_HostAddress = http://localhost:5555
+
+GET {{WebApi_HostAddress}}/ping/
+Accept: application/json
+
+###
