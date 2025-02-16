@@ -40,7 +40,3 @@ public static class Program
         return EXIT_SUCCESS;
     }
 }
-
-// dotnet build --configuration Release --use-current-runtime --self-contained --artifacts-path ./artifacts/
-
-// sc.exe create ".NET Cuculus Service" binpath= "C:\Workspaces\DotNet9\Cuculus\artifacts\bin\Cuculus.WebApi\release\Cuculus.WebApi.exe"
